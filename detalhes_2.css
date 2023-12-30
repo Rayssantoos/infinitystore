@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&family=Saira+Condensed:wght@600&display=swap');
+
+body{
+    background-color: beige;
+}
+
+.logo{
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 50px;
+    padding-right:20px;
+    padding-top: 6px;
+    margin: 5px;   
+}    
+
+.logo a{
+    color:white;
+}
+
+.container{
+    background-image: linear-gradient(7deg, rgb(170, 134, 44), rgb(227, 175, 43));
+    display:flex;  
+    color:blanchedalmond;
+}
+
+.opçoes{
+    padding-top: 15px;
+}
+
+.opçoes nav a{
+    font-family:'Saira Condensed', sans-serif;
+    text-decoration: none;
+    color:blanchedalmond;
+    margin-right: 5px;
+    margin-bottom: 5px;   
+}
+
+#buscar{
+    display: inline-flex;
+    align-items: baseline;
+}
+
+div a{
+    padding-left: 30px;
+    text-align: center;
+}
+
+.nome{
+    color: rgb(61, 73, 163);
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 55px;
+    text-align: center;
+}
+
+.card{
+    margin-left: 85px;
+    margin-right: 85px;
+    padding: 10px 90px 0px 7px ;
+}
+
+#zoom:hover{
+    width: 600px;
+    transition:ease-in-out 1s;
+}
+
+h2{
+    float: right;
+    font-size:medium;
+}
+
+p{
+    text-align: center;
+}
+
+.content{
+    align-content: center;
+}
+
+.title2{
+    text-decoration: line-through;
+}
+
+.img_logo{
+    float:left;
+    position: relative;
+    animation: gira 2s infinite;
+}
+
+@keyframes gira{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}

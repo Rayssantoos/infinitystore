@@ -1,0 +1,7 @@
+POST https://62d0e2051cc14f8c088fc83d.mockapi.io/produto
+Content-Type: application/json
+
+{"aluno": "Rayssa", 
+"imagem": "https://i.pinimg.com/564x/bc/59/48/bc59489ed5ea1e7f420c0751535c623c.jpg", 
+"titulo": "Jaqueta Jeans Vingadores", 
+"descricao": "Pintada à mão com cores violeta e vermelho em destaque."}

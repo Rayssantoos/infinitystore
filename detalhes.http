@@ -1,0 +1,7 @@
+POST https://62d0e2051cc14f8c088fc83d.mockapi.io/produto
+Content-Type: application/json
+
+{"aluno": "Rayssa", 
+"imagem": "https://i.pinimg.com/564x/ae/75/80/ae7580072b4b6998775482b91c33c805.jpg", 
+"titulo": "Tênis Jordan Homem-Aranha", 
+"descricao": "Calçado confortável de cano alto com ajuste de cadarço e cabedal flexível."}
